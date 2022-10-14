@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Academlo Store</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  
+  <div class="loader" id="loader">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+    <title>Academlo Logo</title>
+    <g>
+      <g>
+        <path
+          d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+        </path>
+        <path
+          d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+        </path>
+      </g>
+    </g>
+  </svg></div>
+  <div class="rectangulo-color"></div>
+  <header>
+      <nav class="header-nav">
+        <div class="contenedor-header">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" fill="red">
+            <title>Academlo Logo</title>
+            <g>
+              <g>
+                <path
+                  d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <h2>STORE</h2>
+          <ul class="nav-list">
+              <li>Home</li>
+              <li>Products</li>
+          </ul>
+        </div>
+        <div class="conteiner-icon">
+          <i class='bx bx-moon' id="theme-icon"></i>
+          <div  class="nav-cart" id="cart-shop">
+            <i class='bx bxs-cart-add' id="carro-icon"></i>
+            <span id="cart-counter" class="counter">0</span>
+          </div>
+          <i class='bx bx-grid-alt' id="menu-icon"></i>
+        </div>
+      </nav>
+      <div class="cart--container hide" id="cart--container">
+        <div class="cart" id="cart">
+          <div class="close-cart" >
+            <i class='bx bx-x' id="close-cart"></i>
+          </div>
+          <div id="carrito"class="carrito">
+            <div class="empty-cart">
+              <img class="empty-img" src="./assets/images/empty-cart.png" alt="">
+              <h2 class="empty-title">Your cart is empty</h2>
+              <p class="empty-text">you can add items to your cart by clicking on the "+" button an the product page</p>
+            </div>
+            
+            
+          </div>
+          <div class="total" >
+            <p id="items">0 Items</p>
+
+            <p id="total">Total:0</p>
+          </div>
+          <button class="checkout">Checkout</button>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <section class="section-main">
+      <article  class="contenedor-img">
+         <img class="img-principal" src="./assets/images/home.png" alt="">
+      </article>
+        
+      <article class="contenedor-texto">
+        <h2>New Sweatshirt</h2>
+        <h1>COLLECTION 2022</h1>
+        <p>Latest arrival of the new Hanes Midweigth Crewneck sweatshirt imported from the 2022 series,with a moderm design</p>
+        <h5>$14.00</h5>
+        <button class="main btn-uno">Discover</button><button class="main btn-dos">ADD TO CART</button>
+      </article>
+    </section>
+  </main>
+  <aside>
+    <section >
+      <article class="aside-button">
+      <button class="button-borde Bn" id="All">
+         <h5>Show All</h5>
+         <p>show all products</p>
+      </button>
+      <button class="button-borde Bn" id="Hoodies">
+        <h5>Hoodies</h5>
+        <p>3 products</p>
+      </button>
+      <button class="button-borde Bn" id="Shirts">
+        <h5>Shirts</h5>
+        <p>4 products</p>
+      </button>
+      <button class="button-sin  Bn" id="Sweatshirts">
+        <h5>Sweatshirts</h5>
+        <p>4 products</p>
+      </button>
+    </section>
+    <section class="section-producto" id="section-producto"> 
+    </section>
+  </aside>
+  <footer>
+    <section class="section-footer">
+      <article class="footer-text">
+        <h3>Our information</h3>
+        <p>Toluca-Mexico</p>
+      </article>
+      <article class="footer-text">
+        <h3>About Us</h3>
+        <p>support center</p>
+        <p>Customer support</p>
+        <p>About Us</p>
+        <p>Copy rigth</p>
+      </article>
+      <article class="footer-text">
+        <h3>Product</h3>
+        <p>Hoodies</p>
+        <p>shirts</p>
+        <p>Sweatshirts</p>
+      </article>
+      <article class="footer-text">
+        <h3>Social</h3>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+      </article>
+    </section>
+  </footer>
+  <!--========== Logo Academlo con contorno ==========-->
+  <!-- 
+    sol
+    <i class='bx bx-sun'></i>
+    -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
